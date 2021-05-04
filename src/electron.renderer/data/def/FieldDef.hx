@@ -444,7 +444,7 @@ class FieldDef {
 	}
 
 	public function setRegexContent(raw:String) {
-		if( raw==null )
+		if( raw==null || raw=="")
 			regex = null;
 		else
 			regex = '/$raw/${getRegexFlagsStr()}';

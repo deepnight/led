@@ -99,6 +99,7 @@ class ElectronMain {
 		var p = mainWindow.loadFile('assets/app.html');
 		#if debug
 			// Show immediately
+			mainWindow.show();
 			mainWindow.maximize();
 			p.then( (_)->{}, (_)->_fileNotFound("app.html") );
 		#else

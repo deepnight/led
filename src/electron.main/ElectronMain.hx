@@ -73,7 +73,7 @@ class ElectronMain {
 
 		// Init window
 		mainWindow = new electron.main.BrowserWindow({
-			webPreferences: { nodeIntegration:true },
+			webPreferences: { nodeIntegration:true, contextIsolation: false },
 			fullscreenable: true,
 			show: false,
 			title: "LDtk",

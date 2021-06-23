@@ -1,0 +1,7 @@
+# @install: lix --silent download "gh://github.com/HaxeFoundation/hxnodejs#d2d871c5b4d4589fa4ccb6e2031f982e172f8860" into hxnodejs/12.1.0/github/d2d871c5b4d4589fa4ccb6e2031f982e172f8860
+-cp ${HAXE_LIBCACHE}/hxnodejs/12.1.0/github/d2d871c5b4d4589fa4ccb6e2031f982e172f8860/src
+-D hxnodejs=12.1.0
+--macro allowPackage('sys')
+# should behave like other target defines and not be defined in macro context
+--macro define('nodejs')
+--macro _internal.SuppressDeprecated.run()

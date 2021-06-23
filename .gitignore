@@ -12,6 +12,7 @@ res/.tmp
 .vscode/settings.json
 
 app/*.log
+package-lock.json
 app/package-lock.json
 app/settings
 app/redist
@@ -26,3 +27,4 @@ app/assets/js/*.map
 art/export_appElements
 
 tests/_doNotShare
+node_modules

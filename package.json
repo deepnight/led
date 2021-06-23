@@ -1,0 +1,34 @@
+{
+	"name": "ldtk",
+	"productName": "LDtk",
+	"author": "Sebastien Benard",
+	"description": "2D level editor",
+	"scripts": {
+		"start": "cd app && npm run start",
+		"compile": "haxe main.hxml && haxe renderer.hxml",
+		"doc": "haxe doc.hxml",
+		"pack-prepare": "cd app && npm run pack-prepare",
+		"pack-test": "cd app && npm run pack-test",
+		"pack-win": "cd app && npm run pack-win",
+		"pack-macos": "cd app && npm run pack-macos",
+		"pack-linux-x86": "cd app && npm run pack-linux-x86",
+		"pack-linux-arm64": "cd app && npm run pack-linux-arm64",
+		"publish-github": "cd app && npm run publish-github",
+		"publish-itchio": "cd app && publish-itchio",
+		"quicktype": "cd app && npm run quicktype",
+		"qt-cs": "cd app && npm run qt-cs",
+		"qt-js": "cd app && npm run qt-js",
+		"qt-py": "cd app && npm run qt-py",
+		"qt-rs": "cd app && npm run qt-rs",
+		"qt-go": "cd app && npm run qt-go",
+		"qt-cpp": "cd app && npm run qt-cpp",
+		"postinstall": "lix download && cd app && npm i"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/deepnight/ldtk.git"
+	},
+	"devDependencies": {
+		"lix": "^15.9.1"
+	}
+}

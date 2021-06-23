@@ -1,0 +1,3 @@
+# @install: lix --silent download "haxelib:/ase#1.1.1" into ase/1.1.1/haxelib
+-cp ${HAXE_LIBCACHE}/ase/1.1.1/haxelib/src
+-D ase=1.1.1

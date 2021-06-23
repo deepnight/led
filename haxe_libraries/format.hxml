@@ -1,0 +1,3 @@
+# @install: lix --silent download "haxelib:/format#3.5.0" into format/3.5.0/haxelib
+-cp ${HAXE_LIBCACHE}/format/3.5.0/haxelib/
+-D format=3.5.0

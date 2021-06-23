@@ -1,0 +1,3 @@
+# @install: lix --silent download "gh://github.com/deepnight/ldtk-haxe-api#1ea2a42f71371d4c983bc922aa2b81b4209e8ced" into ldtk-haxe-api/0.9.3-rc.1/github/1ea2a42f71371d4c983bc922aa2b81b4209e8ced
+-cp ${HAXE_LIBCACHE}/ldtk-haxe-api/0.9.3-rc.1/github/1ea2a42f71371d4c983bc922aa2b81b4209e8ced/src/
+-D ldtk-haxe-api=0.9.3-rc.1

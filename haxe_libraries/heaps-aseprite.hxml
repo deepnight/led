@@ -1,0 +1,6 @@
+# @install: lix --silent download "gh://github.com/deepnight/heaps-aseprite#738f0480976903343b8f6f8aa354a20099588f51" into heaps-aseprite/0.0.4/github/738f0480976903343b8f6f8aa354a20099588f51
+-lib ase
+-cp ${HAXE_LIBCACHE}/heaps-aseprite/0.0.4/github/738f0480976903343b8f6f8aa354a20099588f51/
+-D heaps-aseprite=0.0.4
+# Adds .aseprite file handling to hxd.res.Config
+--macro aseprite.Macros.init()
